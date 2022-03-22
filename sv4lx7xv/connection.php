@@ -2,9 +2,9 @@
 
 
 define('DB_HOST','localhost');
-define('DB_USER','amkdev');
-define('DB_PASSWORD','Khaliliphone7s++');
-define('DB_NAME','CommandeApp');
+define('DB_USER','root');
+define('DB_PASSWORD','');
+define('DB_NAME','basedesdonnees');
 
 function connect()
 {
