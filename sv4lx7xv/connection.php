@@ -1,6 +1,4 @@
 <?php
-
-
 define('DB_HOST','localhost');
 define('DB_USER','amkdev');
 define('DB_PASSWORD','Khaliliphone7s++');
