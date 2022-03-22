@@ -10,7 +10,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 
 if($method == "GET"){
   // 1) SQL Querry to stock to get articles
-  $query = "SELECT  id , designation , categorie , prixVente  FROM stock WHERE actif=1 ";
+  $query = "SELECT  id , Designation , Categorie , PrixVente  FROM stock WHERE actif=1 ";
   $articles = mysqli_query($con , $query);
 
   // 2) To json type 

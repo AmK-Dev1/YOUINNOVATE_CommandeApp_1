@@ -17,8 +17,8 @@ if(
         
 
         // 1) SQL Querry wcommande 
-        $query_1 = "INSERT INTO wcommande (article , qte, tablenum) VALUES ('$article', '$qte', '$tablenum')";
-        $query_2 = "INSERT INTO checktbl (tablenum,serveur) VALUES ('$tablenum', '$tablenum')";
+        $query_1 = "INSERT INTO wcommande (article , qnt, TableNum) VALUES ('$article', '$qte', '$tablenum')";
+        $query_2 = "INSERT INTO checktbl (TableNum,serveur) VALUES ('$tablenum', '$tablenum')";
     
         if(mysqli_query($con , $query_1)){
     
