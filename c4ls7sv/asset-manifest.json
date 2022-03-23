@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/YOUINNOVATE/c4ls7sv/static/css/main.3bb03f38.css",
-    "main.js": "/YOUINNOVATE/c4ls7sv/static/js/main.d814a1cb.js",
+    "main.css": "/YOUINNOVATE/c4ls7sv/static/css/main.6fbcd742.css",
+    "main.js": "/YOUINNOVATE/c4ls7sv/static/js/main.5e12689f.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/YOUINNOVATE/c4ls7sv/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/YOUINNOVATE/c4ls7sv/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/YOUINNOVATE/c4ls7sv/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/YOUINNOVATE/c4ls7sv/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/YOUINNOVATE/c4ls7sv/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/logo.png": "/YOUINNOVATE/c4ls7sv/static/media/logo.4465a4cb27bdc091e359.png",
     "index.html": "/YOUINNOVATE/c4ls7sv/index.html",
-    "main.3bb03f38.css.map": "/YOUINNOVATE/c4ls7sv/static/css/main.3bb03f38.css.map",
-    "main.d814a1cb.js.map": "/YOUINNOVATE/c4ls7sv/static/js/main.d814a1cb.js.map"
+    "main.6fbcd742.css.map": "/YOUINNOVATE/c4ls7sv/static/css/main.6fbcd742.css.map",
+    "main.5e12689f.js.map": "/YOUINNOVATE/c4ls7sv/static/js/main.5e12689f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bb03f38.css",
-    "static/js/main.d814a1cb.js"
+    "static/css/main.6fbcd742.css",
+    "static/js/main.5e12689f.js"
   ]
 }

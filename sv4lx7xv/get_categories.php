@@ -1,6 +1,7 @@
 <?php 
 require "connection.php";
 header('Access-Control-Allow-Origin: *');
+
 //check connection 
 if(!$con){
     die("Connection failed :" . mysqli_connect_errno());

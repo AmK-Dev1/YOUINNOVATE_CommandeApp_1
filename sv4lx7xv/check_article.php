@@ -5,6 +5,7 @@ header('Access-Control-Allow-Origin: *');
 if(!$con){
   die("Connection failed :" . mysqli_connect_error());
 }
+
 //chekck method
 $method = $_SERVER['REQUEST_METHOD'];
 
