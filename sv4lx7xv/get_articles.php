@@ -18,8 +18,16 @@ if($method == "GET"){
   while($row = mysqli_fetch_assoc($articles)){
     array_push($articles_json , $row);
   }
-  // 3) Response :
-  $response = json_encode($articles_json);
+
+  //3)response
+  $response = '[';
+  for ($i=0; $i < count($articles_json); $i++) { 
+    $response = $response.'{"id":"'.$articles_json[$i]['id'].'","Designation":"'.$articles_json[$i]['Designation'].'","Categorie":"'.$articles_json[$i]['Categorie'].'","PrixVente":"'.$articles_json[$i]['PrixVente'].'"}';
+    if($i != count($articles_json)-1){
+      $response = $response.",";
+    }  
+  }
+  $response = $response.']';
   echo $response;
 }
 $con->close();
