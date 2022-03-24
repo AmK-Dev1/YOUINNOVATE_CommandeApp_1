@@ -6,6 +6,7 @@ header('Access-Control-Allow-Origin: *');
 if(!$con){
     die("Connection failed :" . mysqli_connect_errno());
 }
+
 // Method 
 $method = $_SERVER['REQUEST_METHOD'];
 if($method =='GET'){
